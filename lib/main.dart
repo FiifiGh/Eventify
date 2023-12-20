@@ -3,6 +3,7 @@ import 'package:eventify/pages/signinscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:eventify/pages/onboarding_screen.dart';
 import 'package:eventify/pages/loginscreen.dart';
+import 'package:eventify/pages/notifications.dart';
 
 void main(){
   runApp(Eventify());
@@ -22,6 +23,7 @@ class Eventify extends StatelessWidget {
         "/login" : (context) => Login(),
         "/signin" : (context) => Signin(),
         "/home" : (context) => Homepage(),
+        "/notifications" : (context) => MyNotification(),
 
 
       },
