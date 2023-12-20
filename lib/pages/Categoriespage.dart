@@ -12,7 +12,7 @@ class Categories extends StatefulWidget {
   State<Categories> createState() => _CategoriesState();
 }
 
-List colors = ["eight","ten","nine",];
+List colors = ["ten","ten","ten",];
 List searches = ["AFRO","POOL","TIDAL;","HOUSE" ];
 
 
